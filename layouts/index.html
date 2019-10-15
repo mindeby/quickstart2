@@ -5,16 +5,39 @@
     <title></title>
     <link href="/dist/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/dist/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/dist/js/main.js" type="js">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
-  <body>
+  <body>›
+
+    {{ partial "nav.html" . }}
+
+
     <h1>{{ .Site.Title }}</h1>
     <p>this is a paragraph</p>
-    <p>this is another paragraph</p>
 
     {{ range .Pages  }}
       <p>{{ .Title }}</p>
     {{ end }}
+
+    <p>this is another paragraph</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => { //wait until everything loaded
+
+        hamburger.addEventListener("click", function(e){
+          console.log("clicked button");
+          dropdown.classList.add('expanded');
+        });
+
+
+        document.addEventListener("click", function(e){
+          if(e.target !== hamburger ){
+            dropdown.classList.remove('expanded');
+          }
+        });
+      });
+    </script>
 
     <script>
       if (window.netlifyIdentity) {
