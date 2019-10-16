@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/dist/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/dist/css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+      
+<div class="nav-bar" id="nav">
+  <div class="border"></div>
+  <img src="/images/logo.png" alt="logo">
+  <button id="hamburger"></button>
+  <ul class="navigation-links" id="dropdown">
+    <li><a href="http://example.org/contact/my-contacts/"></a>Home</li>
+    
+  </ul>
+</div>
+
+
+      
+  <h1></h1>
+  
+
+
+      <div class="footer">
+  <span>Copyright &copy; Design & Developed by Debora Ribeiro. All rights reserved.</span>
+</div>
+
+      <script>
+  document.addEventListener('DOMContentLoaded', () => { 
+
+    let nav = document.getElementById('nav');
+
+    hamburger.addEventListener("click", function(e){
+      dropdown.classList.add('expanded');
+        nav.style.height ="340px";
+        nav.classList.add('border');
+    });
+
+
+    document.addEventListener("click", function(e){
+      if(e.target !== hamburger ){
+        dropdown.classList.remove('expanded');
+        nav.style.height ="115px";
+      }
+    });
+  });
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+    </div>
+  </body>
+</html>

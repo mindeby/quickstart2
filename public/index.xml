@@ -10,5 +10,23 @@
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>http://example.org/contact/my-contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contact/my-contacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/travel/posts/my-first-travel-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/travel/posts/my-first-travel-post/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

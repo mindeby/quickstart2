@@ -1,66 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
 	<meta name="generator" content="Hugo 0.58.3" />
-    <meta charset="utf-8">
-    <title></title>
-    <link href="/dist/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="/dist/css/styles.css" rel="stylesheet" type="text/css">
-    <link href="/dist/js/main.js" type="js">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-  <body>›
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/dist/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/dist/css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
 
-    
-<div class="nav-bar">
-  <button id="hamburger">This is hamb menu</button>
+  <body>
+    <div class="container">
+      
+<div class="nav-bar" id="nav">
+  <div class="border"></div>
+  <img src="/images/logo.png" alt="logo">
+  <button id="hamburger"></button>
   <ul class="navigation-links" id="dropdown">
-    <li>Home</li>
-    <li>Travel</li>
-    <li>Blog</li>
-    <li>Contact</li>
+    <li><a href="http://example.org/"></a>Home</li>
+    
+        <li>
+            <a href="">Blogs</a>
+        </li>
+        
+        <li>
+            <a href="http://example.org/contact/">Contacts</a>
+        </li>
+        
+        <li>
+            <a href="http://example.org/travel/">Travels</a>
+        </li>
+        
   </ul>
 </div>
 
 
+      
+  <main>
+          <div class="hero">
+            <div class="text-box-main">
+              <h2>A blog about yoga and travel</h2>
+            </div>
 
-    <h1>Susana Anastácio</h1>
-    <p>this is a paragraph</p>
+            <div class="text-box-small">
+              <p>We love the Web and the work we do. </br> We work closely with our clients to deliver the best possible solutions for their needs</p>
+            </div>
 
-    
-      <p>Blogs</p>
-    
+            <button>Discover more</button>
 
-    <p>this is another paragraph</p>
+          </div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', () => { 
+        <div class="about">
+          <div class="text-container">
+            <h1>About us</h1>
+            <quote>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</quote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+          </div>
+          <div class="back-image">
 
-        hamburger.addEventListener("click", function(e){
-          console.log("clicked button");
-          dropdown.classList.add('expanded');
-        });
+          </div>
+      </div>
+  </main>
 
 
-        document.addEventListener("click", function(e){
-          if(e.target !== hamburger ){
-            dropdown.classList.remove('expanded');
-          }
-        });
-      });
-    </script>
+      <div class="footer">
+  <span>Copyright &copy; Design & Developed by Debora Ribeiro. All rights reserved.</span>
+</div>
 
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
+      <script>
+  document.addEventListener('DOMContentLoaded', () => { 
+
+    let nav = document.getElementById('nav');
+
+    hamburger.addEventListener("click", function(e){
+      dropdown.classList.add('expanded');
+        nav.style.height ="340px";
+        nav.classList.add('border');
+    });
+
+
+    document.addEventListener("click", function(e){
+      if(e.target !== hamburger ){
+        dropdown.classList.remove('expanded');
+        nav.style.height ="115px";
+      }
+    });
+  });
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
         });
       }
-    </script>
+    });
+  }
+</script>
 
+    </div>
   </body>
 </html>

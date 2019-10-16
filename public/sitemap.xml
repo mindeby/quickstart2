@@ -3,7 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/contact/my-contacts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/travel/posts/my-first-travel-post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
   </url>
   
   <url>
@@ -12,6 +26,10 @@
   
   <url>
     <loc>http://example.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/travel/</loc>
   </url>
   
 </urlset>
