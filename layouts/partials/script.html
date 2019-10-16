@@ -1,0 +1,32 @@
+<script>
+  document.addEventListener('DOMContentLoaded', () => { //wait until everything loaded
+
+    let nav = document.getElementById('nav');
+
+    hamburger.addEventListener("click", function(e){
+      dropdown.classList.add('expanded');
+        nav.style.height ="340px";
+        nav.classList.add('border');
+    });
+
+
+    document.addEventListener("click", function(e){
+      if(e.target !== hamburger ){
+        dropdown.classList.remove('expanded');
+        nav.style.height ="115px";
+      }
+    });
+  });
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

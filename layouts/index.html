@@ -1,87 +1,28 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="/dist/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="/dist/css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-  <body>
-    <div class="container">
 
-      {{ partial "nav.html" . }}
+{{ define "main" }}
+  <main>
+          <div class="hero">
+            <div class="text-box-main">
+              <h2>A blog about yoga and travel</h2>
+            </div>
 
-      <div class="hero">
-        <div class="text-box-main">
-          <h2>A blog about yoga and travel</h2>
-        </div>
+            <div class="text-box-small">
+              <p>We love the Web and the work we do. </br> We work closely with our clients to deliver the best possible solutions for their needs</p>
+            </div>
 
-        <div class="text-box-small">
-          <p>We love the Web and the work we do. </br> We work closely with our clients to deliver the best possible solutions for their needs</p>
-        </div>
+            <button>Discover more</button>
 
-        <button>Discover more</button>
+          </div>
 
+        <div class="about">
+          <div class="text-container">
+            <h1>About us</h1>
+            <quote>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</quote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+          </div>
+          <div class="back-image">
+
+          </div>
       </div>
-      <!--
-      <h1>{{ .Site.Title }}</h1>
-      <p>this is a paragraph</p>
-
-      {{ range .Site.RegularPages }}
-          <li>
-              <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-          </li>
-      {{ end }}
-
-      <p>this is another paragraph</p>
-    -->
-
-    <div class="about">
-      <div class="text-container">
-        <h1>About us</h1>
-        <quote>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</quote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
-      </div>
-      <div class="back-image">
-
-      </div>
-    </div>
-
-
-
-      <script>
-        document.addEventListener('DOMContentLoaded', () => { //wait until everything loaded
-
-          hamburger.addEventListener("click", function(e){
-            dropdown.classList.add('expanded');
-              nav.style.height ="325px";
-          });
-
-
-          let nav = document.getElementById('nav');
-          document.addEventListener("click", function(e){
-            if(e.target !== hamburger ){
-              dropdown.classList.remove('expanded');
-              nav.style.height ="115px";
-            }
-          });
-        });
-      </script>
-
-      <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      </script>
-    </div>
-
-  </body>
-</html>
+  </main>
+{{ end }}

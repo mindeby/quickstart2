@@ -1,11 +1,14 @@
 
 <div class="nav-bar" id="nav">
-  <img src="images/logo.png" alt="logo">
+  <div class="border"></div>
+  <img src="/images/logo.png" alt="logo">
   <button id="hamburger"></button>
   <ul class="navigation-links" id="dropdown">
-    <li>Home</li>
-    <li>Travel</li>
-    <li>Blog</li>
-    <li>Contact</li>
+    <li><a href="{{.Permalink}}"></a>Home</li>
+    {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+        {{end}}
   </ul>
 </div>
