@@ -164,6 +164,7 @@ li {
   text-align: center;
   color: white;
   text-transform: capitalize;
+  line-height: 45px;
 }
 
 .text-box {
