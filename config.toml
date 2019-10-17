@@ -5,3 +5,23 @@ relativeURLs = true
 
 [permalinks]
   post = "/:year/:month/:title/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 2
+
+[[menu.main]]
+  name = "Travel"
+  url = "/travel"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 4

@@ -17,9 +17,9 @@ body {
   margin: auto;
 }
 
-
 img {
   max-width: 100%;
+  margin: auto;
 }
 
 h1 {
@@ -42,7 +42,6 @@ li {
   width: 95%;
   margin: auto;
 }
-
 
 .nav-bar img {
   height: 40px;
