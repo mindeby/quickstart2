@@ -2,7 +2,6 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Params.language }}
-  {{ if eq .Type "articles" }}
   {{ .Content }}
   <img src="{{ .Params.thumbnail }}">
 {{ end }}
