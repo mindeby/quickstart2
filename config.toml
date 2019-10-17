@@ -25,5 +25,5 @@ pluralizelisttitles = false
 
 [[menu.main]]
   name = "Contact"
-  url = "/contact"
+  url = "/contacts"
   weight = 4
