@@ -4,8 +4,8 @@
   <img src="/logo.png" alt="logo">
   <button id="hamburger"></button>
   <ul class="navigation-links" id="dropdown">
-    <li><a href="{{.Permalink}}"></a>Home</li>
-    {{ range .Pages }}
+    <li><a href=" {{ .Site.BaseURL }} "></a>Home</li>
+    {{ range .Data.Pages }}
         <li>
             <a href="{{.Permalink}}">{{.Title}}</a>
         </li>
