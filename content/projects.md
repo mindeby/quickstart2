@@ -1,4 +1,4 @@
 ---
 type: "page"
-layout: "simple-form"
+layout: "simple-static"
 ---
