@@ -1,5 +1,6 @@
 {{ define "main" }}
   <main>
+    <div class="list-menu">
       <article>
           <header>
               <h1>{{.Title}}</h1>
@@ -7,13 +8,29 @@
           <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
       </article>
 
-      <ul>
+      <ul class="post-list">
       <!-- Ranges through content/posts/*.md -->
-      {{ range .Data.Pages }}
+      {{ range .Pages }}
           <li>
-              <a href="{{.Permalink}}">{{.Date.Format "02-01-2016"}} | {{.Title}}</a><br>
+
+            <a href="{{.Permalink}}">
+              <div class="post-thumbnail-area" style="
+                background-image: url({{.Params.thumbnail}});
+                ">
+
+                  <h2> {{.Title}} </h2>
+
+              </div>
+            </a>
+
+            <div class="text-box">
+              <h3>{{ .Params.Description }}</h3>
+              <p>{{ .Content }}</p>
+            </div>
+            
           </li>
       {{ end }}
       </ul>
+    </div>
   </main>
 {{ end }}

@@ -123,6 +123,53 @@ li {
   font-weight: 400;
 }
 
+
+.list-menu {
+  margin: auto;
+  max-width: 500px;
+}
+
+.list-menu ul {
+  padding-left: 0;
+}
+
+.list-menu img {
+  width: 100%;
+}
+
+/* Blog */
+.post-list li {
+  max-width: 90%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+}
+
+.post-thumbnail-area {
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-thumbnail-area h2 {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+.text-box {
+
+}
+
 .hero button {
   height: 50px;
   width: 200px;
@@ -207,6 +254,7 @@ quote {
   position: absolute;
   top: 50px;
 }
+
 
 
 @media (min-width: 600px) {

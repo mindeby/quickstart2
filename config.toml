@@ -6,7 +6,7 @@ pluralizelisttitles = false
 
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:month/:year/:title/"
 
 [[menu.main]]
   name = "Home"
@@ -23,7 +23,14 @@ pluralizelisttitles = false
   url = "/travel"
   weight = 3
 
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+  weight = 4
+
+
 [[menu.main]]
   name = "Contact"
   url = "/contacts"
-  weight = 4
+  weight = 5

@@ -1,5 +1,5 @@
 ---
 type: "page"
-layout: "simple-static"
+layout: "simple-form"
 
 ---
