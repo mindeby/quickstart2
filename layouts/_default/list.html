@@ -12,7 +12,6 @@
       {{ range .Pages }}
           <li>
               <a href="{{.Permalink}}">{{.Date.Format "02-01-2016"}} | {{.Title}}</a><br>
-              <img src="{{ .Params.thumbnail }}">
           </li>
       {{ end }}
       </ul>

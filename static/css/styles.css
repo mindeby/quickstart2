@@ -52,7 +52,14 @@ li {
 
 .navigation-links {
   display: none;
+  margin-top: 37.5px;
 }
+
+.navigation-links a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .expanded.navigation-links {
   display: block;
@@ -67,70 +74,68 @@ li {
 }
 
 
-  .expanded.navigation-links:first-child {
-    border-top: 1px solid red;
-  }
+.expanded.navigation-links:first-child {
+  border-top: 1px solid red;
+}
 
-  .hero  {
-    min-height: 565px;
-    position: relative;
-    border: solid 1px rgb(68, 70, 92, 0.3);
-    background-color: black;
-    opacity: 0.9;
-  }
+.hero  {
+  min-height: 565px;
+  position: relative;
+  border: solid 1px rgb(68, 70, 92, 0.3);
+  background-color: black;
+  opacity: 0.9;
+}
 
-  .hero::after {
-    content: "";
-    background-image: url('water.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    opacity: 0.6;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-  }
-
-
-  .text-box-main *, .text-box-small * {
-    width: 90%;
-    margin: auto;
-    line-height: 45px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    font-weight: 200;
-  }
-
-  .text-box-main {
-    margin-top: 125px;
-    font-size: 15px;
-    text-transform:uppercase;
-    letter-spacing: 7px;
-  }
-
-  .text-box-small {
-    margin-top: 55px;
-    font-size: 14px;
-    word-spacing: 4px;
-    font-weight: 400;
-  }
-
-  .hero button {
-    height: 50px;
-    width: 200px;
-    margin: auto;
-    display: block;
-    background: none;
-    color: white;
-    border: solid white 1px;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
+.hero::after {
+  content: "";
+  background-image: url('water.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
 
 
+.text-box-main *, .text-box-small * {
+  width: 90%;
+  margin: auto;
+  line-height: 45px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 200;
+}
+
+.text-box-main {
+  margin-top: 125px;
+  font-size: 15px;
+  text-transform:uppercase;
+  letter-spacing: 7px;
+}
+
+.text-box-small {
+  margin-top: 55px;
+  font-size: 14px;
+  word-spacing: 4px;
+  font-weight: 400;
+}
+
+.hero button {
+  height: 50px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  background: none;
+  color: white;
+  border: solid white 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 
 #hamburger {
   position: absolute;

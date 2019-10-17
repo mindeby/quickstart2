@@ -2,6 +2,8 @@ baseURL = "http://example.org"
 languageCode = "en-us"
 title = "Susana Anastácio"
 relativeURLs = true
+pluralizelisttitles = false
+
 
 [permalinks]
   post = "/:year/:month/:title/"
