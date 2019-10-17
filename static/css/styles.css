@@ -168,8 +168,11 @@ li {
 }
 
 .text-box {
-
+  width: 90%;
+  margin: auto;
 }
+
+
 
 .hero button {
   height: 50px;
