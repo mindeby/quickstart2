@@ -4,8 +4,18 @@
   <body>
     <div class="container">
       {{ partial "nav.html" . }}
-      <p>this is a simple page</p>
-
+      <div class="projectos">
+        <ul>
+          <li>
+            <h3>O Uivar da Loba</h3>
+            <img src="/logoPerfil.png" alt="uivar da loba logo">
+          </li>
+          <li>
+            <h3>Podcast Unknown</h3>
+            <img src="/podcasting.png" alt="podcast logo">
+          </li>
+        </ul>
+      </div>
       {{ partial "footer.html" . }}
       {{ partial "script.html" . }}
     </div>

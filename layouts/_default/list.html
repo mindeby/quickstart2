@@ -25,9 +25,14 @@
 
             <div class="text-box">
               <h3>{{ .Params.Description }}</h3>
-              <p>{{ .Summary }}..</p>
+              <p> {{.Summary}} </p>
             </div>
-
+            {{ if .Truncated }}
+              <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+              <div>
+                <a href="{{ .RelPermalink }}"><button id="read-more">Read More…</button></a>
+              </div>
+            {{ end }}
           </li>
       {{ end }}
       </ul>
