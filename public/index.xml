@@ -2,29 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Susana Anastácio</title>
-    <link>http://example.org/</link>
+    <link>http://susananastacio.netlify.com/</link>
     <description>Recent content on Susana Anastácio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2019 15:45:33 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://susananastacio.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Title 1 </title>
+      <link>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</link>
+      <pubDate>Thu, 17 Oct 2019 15:45:33 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et porttitor lectus, id semper neque.</description>
+    </item>
+    
+    <item>
+      <title>this is my first post about travelling</title>
+      <link>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</link>
+      <pubDate>Thu, 17 Oct 2019 09:14:12 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</guid>
+      <description>this is my first post about travelling and such lalalalala</description>
+    </item>
+    
+    <item>
+      <title>Title 2</title>
+      <link>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</link>
+      <pubDate>Wed, 16 Oct 2019 15:45:33 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et porttitor lectus, id semper neque.</description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>http://example.org/contact/my-contacts/</link>
+      <link>http://susananastacio.netlify.com/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/contact/my-contacts/</guid>
+      <guid>http://susananastacio.netlify.com/contacts/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/travel/posts/my-first-travel-post/</link>
+      <link>http://susananastacio.netlify.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/travel/posts/my-first-travel-post/</guid>
+      <guid>http://susananastacio.netlify.com/projects/</guid>
       <description></description>
     </item>
     

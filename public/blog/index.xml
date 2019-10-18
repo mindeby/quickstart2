@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Susana Anastácio</title>
+    <link>http://susananastacio.netlify.com/blog/</link>
+    <description>Recent content in Blog on Susana Anastácio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2019 15:45:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://susananastacio.netlify.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Title 1 </title>
+      <link>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</link>
+      <pubDate>Thu, 17 Oct 2019 15:45:33 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et porttitor lectus, id semper neque.</description>
+    </item>
+    
+    <item>
+      <title>Title 2</title>
+      <link>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</link>
+      <pubDate>Wed, 16 Oct 2019 15:45:33 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et porttitor lectus, id semper neque.</description>
+    </item>
+    
+  </channel>
+</rss>

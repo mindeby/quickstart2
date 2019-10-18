@@ -3,33 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/contact/my-contacts/</loc>
-    <priority>0</priority>
+    <loc>http://susananastacio.netlify.com/blog/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/travel/posts/my-first-travel-post/</loc>
-    <priority>0</priority>
+    <loc>http://susananastacio.netlify.com/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</loc>
+    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://susananastacio.netlify.com/travel/</loc>
+    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</loc>
+    <lastmod>2019-10-16T15:45:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/travel/</loc>
+    <loc>http://susananastacio.netlify.com/contacts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/tags/</loc>
   </url>
   
 </urlset>

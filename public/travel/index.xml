@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Travels on Susana Anastácio</title>
-    <link>http://example.org/travel/</link>
-    <description>Recent content in Travels on Susana Anastácio</description>
+    <title>Travel on Susana Anastácio</title>
+    <link>http://susananastacio.netlify.com/travel/</link>
+    <description>Recent content in Travel on Susana Anastácio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2019 09:14:12 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/travel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://susananastacio.netlify.com/travel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>http://example.org/travel/posts/my-first-travel-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>this is my first post about travelling</title>
+      <link>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</link>
+      <pubDate>Thu, 17 Oct 2019 09:14:12 +0000</pubDate>
       
-      <guid>http://example.org/travel/posts/my-first-travel-post/</guid>
-      <description></description>
+      <guid>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</guid>
+      <description>this is my first post about travelling and such lalalalala</description>
     </item>
     
   </channel>
