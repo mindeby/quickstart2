@@ -182,8 +182,9 @@ quote {
 footer {
   height: 100px;
   background-color: #ECECEC;
-  position: relative;
   font-size: 14px;
+  position: absolute;
+  bottom: 0;
 }
 
 footer span {

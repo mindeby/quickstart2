@@ -1,21 +1,20 @@
 
 {{ define "main" }}
   <main>
-          <div class="hero">
-            <div class="text-box-main">
-              <h2>Um blog sobre yoga e viagens</h2>
-            </div>
-          </div>
-
-        <div class="about">
-          <div class="text-container">
-            <h1>Sobre mim</h1>
-            <quote>O estudo de yoga é o estudo do "eu", não tem princípio ou fim.</quote>
-            <p>O yoga entrou na minha vida como um todo, asanas, pranayama e meditação, sempre com a filosofia, o Vedanta, como base. Todas as aulas são por isso, uma combinação de todas essas dimensões do ser.
-            Vejo o yoga como uma ferramenta para o dia-a-dia, para o bem-estar, a felicidade, mas também a resposta para a grande pergunta, "Quem sou eu?"
-            O estudo de yoga é o estudo do "eu", não tem princípio ou fim, mas formalizando, conclui uma formação de dois anos com o Professor Miguel Homem.
-            Sou apaixonada por escrever, pela natureza e pelo ser humano na sua potencialidade de crescimento.</p>
-          </div>
+    {{ range .Pages }}
+      <div class="hero">
+        <div class="text-box-main">
+          <h2>{{ .Params.titulo_pagina }}</h2>
+        </div>
       </div>
-  </main>
+
+      <div class="about">
+        <div class="text-container">
+          <h1>{{ .Params.titulo_texto }}</h1>
+          <quote>{{ .Params.quote }}</quote>
+          <p>{{ .Content }}</p>
+        </div>
+      </div>
+    </main>
+  {{ end }}
 {{ end }}
