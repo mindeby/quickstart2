@@ -10,5 +10,7 @@
       <img src="/svg/linkedin.svg" alt="linkedin-icon">
     </a></li>
   </ul>
-  <span>Copyright &copy; Design por Debora Ribeiro. Todos os direitos reservados.</span>
+  {{ range .Pages }}
+  <span> {{ .Params.copyright }} </span>
+  {{end}}
 </footer>

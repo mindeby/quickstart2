@@ -3,12 +3,11 @@ title = "Susana Anastácio"
 relativeURLs = true
 pluralizelisttitles = false
 summaryLength = 60
-DefaultContentLanguage = "pt"
+DefaultContentLanguage = "en"
 
 
 [permalinks]
   post = "/:month/:year/:title/"
-
 
 [[languages.pt.menu.main]]
 name = "Home"
