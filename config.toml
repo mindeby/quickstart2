@@ -21,18 +21,18 @@ summaryLength = 60
   weight = 2
 
 [[menu.main]]
-  name = "Travel"
-  url = "/travel"
+  name = "Viagens"
+  url = "/viagens"
   weight = 3
 
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects"
+  name = "Projectos"
+  url = "/projectos"
   weight = 4
 
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contacts"
+  name = "Contactos"
+  url = "/contactos"
   weight = 5

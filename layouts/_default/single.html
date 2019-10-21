@@ -1,10 +1,10 @@
 
 {{ define "main" }}
   <main>
+    <img src="{{ .Params.thumbnail }}">
     <div class="text-container">
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </div>
-    <img src="{{ .Params.thumbnail }}">
   </main>
 {{ end }}

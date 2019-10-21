@@ -2,9 +2,9 @@
   <main>
     <div class="list-menu">
       <article>
-          <header>
+        <!--  <header>
               <h1>{{.Title}}</h1>
-          </header>
+          </header> -->
           <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
       </article>
 
@@ -30,7 +30,7 @@
             {{ if .Truncated }}
               <!-- This <div> includes a read more link, but only if the summary is truncated... -->
               <div>
-                <a href="{{ .RelPermalink }}"><button id="read-more">Read More…</button></a>
+                <a href="{{ .RelPermalink }}"><button id="read-more">Read More …</button></a>
               </div>
             {{ end }}
           </li>
