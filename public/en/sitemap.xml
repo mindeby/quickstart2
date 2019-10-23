@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://susananastacio.netlify.com/</loc>
+    <loc>http://susananastacio.netlify.com/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://susananastacio.netlify.com/pt/"
+                href="http://susananastacio.netlify.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://susananastacio.netlify.com/"
+                href="http://susananastacio.netlify.com/en/"
                 />
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/categories/</loc>
+    <loc>http://susananastacio.netlify.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://susananastacio.netlify.com/pt/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="http://susananastacio.netlify.com/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/pt/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://susananastacio.netlify.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="http://susananastacio.netlify.com/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/"
+                />
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/tags/</loc>
+    <loc>http://susananastacio.netlify.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://susananastacio.netlify.com/pt/tags/"
+                href="http://susananastacio.netlify.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://susananastacio.netlify.com/tags/"
+                href="http://susananastacio.netlify.com/en/tags/"
                 />
   </url>
   

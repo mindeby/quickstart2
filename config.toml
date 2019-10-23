@@ -9,59 +9,61 @@ DefaultContentLanguage = "pt"
   post = "/:month/:year/:title/"
 
 
+[languages]
+
 [languages.pt]
   languageName = "PT"
   weight = 1
 
-[[languages.pt.menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+  [[languages.pt.menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-[[languages.pt.menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 2
+  [[languages.pt.menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 2
 
-[[languages.pt.menu.main]]
-name = "Viagens"
-url = "/viagens"
-weight = 3
-[[languages.pt.menu.main]]
-name = "Projectos"
-url = "/projectos"
-weight = 4
+  [[languages.pt.menu.main]]
+  name = "Viagens"
+  url = "/viagens"
+  weight = 3
+  [[languages.pt.menu.main]]
+  name = "Projectos"
+  url = "/projectos"
+  weight = 4
 
-[[languages.pt.menu.main]]
-name = "Contactos"
-url = "/contactos"
-weight = 5
+  [[languages.pt.menu.main]]
+  name = "Contactos"
+  url = "/contactos"
+  weight = 5
 
 
 [languages.en]
   languageName = "EN"
   weight = 2
 
-[[languages.en.menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+  [[languages.en.menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-[[languages.en.menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 2
+  [[languages.en.menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 2
 
-[[languages.en.menu.main]]
-name = "Travel"
-url = "/viagens"
-weight = 3
-[[languages.en.menu.main]]
-name = "Projects"
-url = "/projectos"
-weight = 4
+  [[languages.en.menu.main]]
+  name = "Travel"
+  url = "/viagens"
+  weight = 3
+  [[languages.en.menu.main]]
+  name = "Projects"
+  url = "/projectos"
+  weight = 4
 
-[[languages.en.menu.main]]
-name = "Contacts"
-url = "/contactos"
-weight = 5
+  [[languages.en.menu.main]]
+  name = "Contacts"
+  url = "/contactos"
+  weight = 5
