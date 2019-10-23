@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/pt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/pt/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/pt/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/pt/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/pt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/pt/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/pt/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/pt/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../css/styles.css" type="text/css">
+
+  
+	
+	<link rel="alternate" hreflang="pt" href="http://susananastacio.netlify.com/tags/" title="PT">
+	
+  
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+      
+<div class="nav-bar" id="nav">
+
+  
+<ul>
+  
+  <li><a href="http://susananastacio.netlify.com/"><button>PT</button></a></li>
+  
+  <li><a href="http://susananastacio.netlify.com/en/"><button>EN</button></a></li>
+  
+</ul>
+
+
+  <div class="border"></div>
+  <img src="../../logo.png" alt="logo">
+  <button id="hamburger"></button>
+  <ul class="navigation-links" id="dropdown">
+    
+        <li>
+            <a href="../../en/">Home</a>
+        </li>
+    
+        <li>
+            <a href="../../en/blog">Blog</a>
+        </li>
+    
+        <li>
+            <a href="../../en/viagens">Travel</a>
+        </li>
+    
+        <li>
+            <a href="../../en/projectos">Projects</a>
+        </li>
+    
+        <li>
+            <a href="../../en/contactos">Contacts</a>
+        </li>
+    
+  </ul>
+
+</div>
+
+
+      
+  <main>
+    <div class="list-menu">
+      <article>
+        
+          
+      </article>
+
+      <ul class="post-list">
+      
+      
+      </ul>
+    </div>
+  </main>
+
+
+      <footer>
+  <ul>
+    <li><a href="https://www.instagram.com/su_anastacio/" target="_blank">
+      <img src="../../svg/instagram.svg" alt="instagram-icon">
+    </a></li>
+    <li><a href="https://www.facebook.com/susana.m.anastacio" target="_blank">
+      <img src="../../svg/facebook.svg" alt="facebook-icon">
+    </a></li>
+    <li><a href="https://www.linkedin.com/in/susanaanastacio/" target="_blank">
+      <img src="../../svg/linkedin.svg" alt="linkedin-icon">
+    </a></li>
+  </ul>
+  
+</footer>
+
+      <script>
+  document.addEventListener('DOMContentLoaded', () => { 
+
+    let nav = document.getElementById('nav');
+
+    hamburger.addEventListener("click", function(e){
+      dropdown.classList.add('expanded');
+        nav.style.height ="340px";
+        nav.classList.add('border');
+    });
+
+
+    document.addEventListener("click", function(e){
+      if(e.target !== hamburger ){
+        dropdown.classList.remove('expanded');
+        nav.style.height ="115px";
+      }
+    });
+  });
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+
+
+    </div>
+  </body>
+</html>

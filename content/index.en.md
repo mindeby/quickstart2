@@ -1,6 +1,7 @@
 ---
 type: "page"
 layout: "index"
+translationKey: "index"
 titulo_pagina: "A blog about yoga and travel"
 titulo_texto: "About me"
 quote: "The study of yoga bla bla "

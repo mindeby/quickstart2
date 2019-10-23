@@ -1,6 +1,7 @@
 ---
 type: "page"
 layout: "simple-form"
+translationKey: "contacts"
 label_name: "Name"
 label_email: "Email Address"
 label_message: "Message"

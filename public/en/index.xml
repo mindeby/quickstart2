@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Susana Anastácio</title>
+    <link>http://susananastacio.netlify.com/en/</link>
+    <description>Recent content on Susana Anastácio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://susananastacio.netlify.com/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://susananastacio.netlify.com/en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://susananastacio.netlify.com/en/</guid>
+      <description>Yoga came into my life bla bla bla</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,15 @@
 
 <div class="nav-bar" id="nav">
+
+  {{ partial "allLanguages.html" . }}
+
   <div class="border"></div>
   <img src="/logo.png" alt="logo">
   <button id="hamburger"></button>
   <ul class="navigation-links" id="dropdown">
     {{ range .Site.Menus.main }}
         <li>
-            <a href="{{.URL}}">{{.Name}}</a>
+            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
         </li>
     {{end}}
   </ul>

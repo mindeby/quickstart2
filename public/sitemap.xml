@@ -1,51 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/travel/posts/17-10-2019-this-is-my-first-post-about-travelling/</loc>
-    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/travel/</loc>
-    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</loc>
-    <lastmod>2019-10-16T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/contacts/</loc>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/tags/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://susananastacio.netlify.com/pt/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://susananastacio.netlify.com/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

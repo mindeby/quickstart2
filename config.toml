@@ -5,18 +5,13 @@ pluralizelisttitles = false
 summaryLength = 60
 DefaultContentLanguage = "pt"
 
-
-[languages]
-  [languages.pt]
-    baseURL = "http://susananastacio.netlify.com"
-    weight = 1
-  [languages.en]
-    baseURL = "http://susananastacio.netlify.com/en"
-    weight = 2
-
-
 [permalinks]
   post = "/:month/:year/:title/"
+
+
+[languages.pt]
+  languageName = "PT"
+  weight = 1
 
 [[languages.pt.menu.main]]
 name = "Home"
@@ -42,6 +37,10 @@ name = "Contactos"
 url = "/contactos"
 weight = 5
 
+
+[languages.en]
+  languageName = "EN"
+  weight = 2
 
 [[languages.en.menu.main]]
 name = "Home"

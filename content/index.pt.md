@@ -1,6 +1,7 @@
 ---
 type: "page"
 layout: "index"
+translationKey: "index"
 titulo_pagina: "Um blog sobre yoga e viagens"
 titulo_texto: "Escrita, Viagens & Yoga"
 quote: "O estudo de yoga é o estudo do 'eu', não tem princípio ou fim."
