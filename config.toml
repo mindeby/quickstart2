@@ -3,7 +3,16 @@ title = "Susana Anastácio"
 relativeURLs = true
 pluralizelisttitles = false
 summaryLength = 60
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt"
+
+
+[languages]
+  [languages.pt]
+    baseURL = "http://susananastacio.netlify.com"
+    weight = 1
+  [languages.en]
+    baseURL = "http://susananastacio.netlify.com/en"
+    weight = 2
 
 
 [permalinks]
