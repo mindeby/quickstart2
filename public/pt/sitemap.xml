@@ -4,6 +4,7 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +14,59 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://susananastacio.netlify.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/post/en/</loc>
+    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/viagens/posts/en/</loc>
+    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/viagens/</loc>
+    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</loc>
+    <lastmod>2019-10-16T15:45:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/contactos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/contactos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/contactos/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/projectos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/projectos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/projectos/"
                 />
   </url>
   
@@ -27,20 +81,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://susananastacio.netlify.com/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/"
                 />
   </url>
   

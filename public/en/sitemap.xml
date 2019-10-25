@@ -17,6 +17,34 @@
   </url>
   
   <url>
+    <loc>http://susananastacio.netlify.com/en/contactos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/contactos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/contactos/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/en/projectos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/projectos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/projectos/"
+                />
+  </url>
+  
+  <url>
     <loc>http://susananastacio.netlify.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,20 +55,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://susananastacio.netlify.com/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/"
                 />
   </url>
   
