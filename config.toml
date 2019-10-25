@@ -7,7 +7,7 @@ DefaultContentLanguage = "pt"
 
 
 [permalinks]
-  post = "/:month/:year/:title/:language"
+  post = "/:month/:year/:title/"
 
 
 [languages]
