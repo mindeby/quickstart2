@@ -5,4 +5,5 @@ draft: true
 whodoneit: false
 type: blog
 language: english
+slug:
 ---
