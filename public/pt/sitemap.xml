@@ -4,7 +4,6 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,31 +14,6 @@
                 hreflang="pt"
                 href="http://susananastacio.netlify.com/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</loc>
-    <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-2/</loc>
-    <lastmod>2019-10-16T15:45:33+00:00</lastmod>
   </url>
   
   <url>

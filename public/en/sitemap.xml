@@ -4,7 +4,6 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/en/</loc>
-    <lastmod>2019-10-25T11:12:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,46 +14,6 @@
                 hreflang="en"
                 href="http://susananastacio.netlify.com/en/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/</loc>
-    <lastmod>2019-10-25T11:12:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/post/2019-10-25-title-here-language/</loc>
-    <lastmod>2019-10-25T11:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/post/2019-10-25/</loc>
-    <lastmod>2019-10-25T10:16:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/post/2019-10-25-testingdjdj-akjda/</loc>
-    <lastmod>2019-10-25T10:16:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/post/2019-10-25-this-is-another-slug-test/</loc>
-    <lastmod>2019-10-25T09:52:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/en/blog/post/2019-10-25-this-is-another-slug-test-hghgjgljkjkjk/</loc>
-    <lastmod>2019-10-25T09:52:19+00:00</lastmod>
   </url>
   
   <url>

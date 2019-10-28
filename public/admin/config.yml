@@ -7,9 +7,9 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "blog" # Used in the UI
-    folder: "content/blog/post/" # The path to the folder where the documents are stored
+  - name: "blog_pt" # Used in routes, e.g., /admin/collections/blog
+    label: "portuguese blog post" # Used in the UI
+    folder: "content/portuguese/blog/post/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -22,11 +22,11 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Language", name: "language"}
 
-  - name: "travel" # Used in routes, e.g., /admin/collections/blog
-    label: "travel" # Used in the UI
-    folder: "content/travel/posts" # The path to the folder where the documents are stored
+  - name: "blog_en" # Used in routes, e.g., /admin/collections/blog
+    label: "english blog post" # Used in the UI
+    folder: "content/english/blog/post/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{day}}-{{month}}-{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
