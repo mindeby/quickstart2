@@ -311,8 +311,7 @@ textarea {
 
 
 .post-list li:hover {
-  transform: rotate(25deg);
-  box-shadow: inset 0 0 0 30px #F4ECDF, inset 0 0 0 35px #F4A898, inset 0 0 0 45px #F4ECDF, 10px 10px 10px 5px rgba(0,0,0,0.75);
+  
 }
 
 .post-thumbnail-area:hover h2 {
