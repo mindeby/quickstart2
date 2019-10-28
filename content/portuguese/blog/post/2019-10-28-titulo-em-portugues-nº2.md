@@ -3,7 +3,7 @@ layout: blog
 title: Titulo em Portugues nº2
 description: Descriçao em Portugues
 date: 2019-10-28T10:32:55.777Z
-thumbnail: /images/uploads/main-photo.jpeg
+thumbnail: /images/uploads/19133d74c50de61c777c07bab696c2e0.jpg
 type: yoga
 ---
 O aumento da  flexibilidade é um dos benefícios mais óbvios do Yoga. Durante a sua primeira aula você provavelmente não vai conseguir tocar seus dedões, mas não se preocupe.
