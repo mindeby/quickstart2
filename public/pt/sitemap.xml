@@ -20,21 +20,21 @@
   <url>
     <loc>http://susananastacio.netlify.com/blog/</loc>
     <lastmod>2019-10-17T15:45:33+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/blog/"
+                />
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/blog/post/en/</loc>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-10-17-title-1/</loc>
     <lastmod>2019-10-17T15:45:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/viagens/posts/en/</loc>
-    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/viagens/</loc>
-    <lastmod>2019-10-17T09:14:12+00:00</lastmod>
   </url>
   
   <url>
@@ -43,30 +43,30 @@
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/contactos/</loc>
+    <loc>http://susananastacio.netlify.com/contacts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://susananastacio.netlify.com/en/contactos/"
+                href="http://susananastacio.netlify.com/en/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://susananastacio.netlify.com/contactos/"
+                href="http://susananastacio.netlify.com/contacts/"
                 />
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/projectos/</loc>
+    <loc>http://susananastacio.netlify.com/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://susananastacio.netlify.com/en/projectos/"
+                href="http://susananastacio.netlify.com/en/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://susananastacio.netlify.com/projectos/"
+                href="http://susananastacio.netlify.com/projects/"
                 />
   </url>
   
