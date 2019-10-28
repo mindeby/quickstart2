@@ -4,6 +4,7 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +15,26 @@
                 hreflang="pt"
                 href="http://susananastacio.netlify.com/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-10-28-titulo-em-portugues/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
   </url>
   
   <url>

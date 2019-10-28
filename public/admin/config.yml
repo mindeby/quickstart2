@@ -20,7 +20,6 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Type of article", name: "type", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Language", name: "language"}
 
   - name: "blog_en" # Used in routes, e.g., /admin/collections/blog
     label: "english blog post" # Used in the UI
@@ -35,4 +34,3 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Type of article", name: "type", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Language", name: "language"}
