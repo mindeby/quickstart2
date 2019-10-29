@@ -43,6 +43,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "events_calendar"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Event Date", name: "date", widget: "datetime"}
       - {label: "Type of event", name: "type", widget: "string"}
