@@ -11,6 +11,7 @@
       <ul class="post-list">
       <!-- Ranges through content/posts/*.md -->
       {{ range .Pages }}
+        {{ if eq .Params.layout "blog" }}
           <li>
 
             <a href="{{.Permalink}}">
@@ -22,13 +23,15 @@
 
               </div>
             </a>
-
+<!--
             <div class="text-box">
-            <!--  <h3>{{ .Params.Description }}</h3> -->
-            </div>
+              <h3>{{ .Params.Description }}</h3>
+            </div> -->
           </li>
       {{ end }}
+     {{ end }}
       </ul>
+
     </div>
   </main>
 {{ end }}
