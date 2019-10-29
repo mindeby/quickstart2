@@ -22,10 +22,10 @@
     {{ with .GetPage "events/" }}
       {{ range .RegularPages }}
         {{ .Title }}
+        {{ .Params.location }}
+        {{ .Params.date }}
       {{ end }}
     {{ end }}
-
-
 
 
 {{ end }}
