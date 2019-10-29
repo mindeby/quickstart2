@@ -18,14 +18,22 @@
       </div>
   </main>
 
+  <ul>
+      {{ range where .Site.Pages "Params.layout" "event" }}
+          <li>
+          {{ .Title }}<br>
+          {{ .Params.location }}<br>
+          {{ .Params.description }}<br>
+          </li>
+      {{ end }}
+  </ul>
 
-    {{ with .GetPage "events/" }}
+  {{ with .GetPage "events/" }}
       {{ range .RegularPages }}
         {{ .Title }}
-        {{ .Params.location }}
-        {{ .Params.date }}
       {{ end }}
     {{ end }}
+
 
 
 {{ end }}

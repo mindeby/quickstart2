@@ -34,3 +34,29 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Type of article", name: "type", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "event_pt" # Used in routes, e.g., /admin/collections/blog
+    label: "portuguese event" # Used in the UI
+    folder: "content/portuguese/events/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Event Date", name: "date", widget: "datetime"}
+      - {label: "Type of Event", name: "type", widget: "string"}
+
+  - name: "event_en" # Used in routes, e.g., /admin/collections/blog
+    label: "english event" # Used in the UI
+    folder: "content/english/events/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Event Date", name: "date", widget: "datetime"}
+      - {label: "Type of Event", name: "type", widget: "string"}
