@@ -1,6 +1,5 @@
 baseURL = "http://susananastacio.netlify.com"
 title = "Susana Anastácio"
-relativeURLs = true
 pluralizelisttitles = false
 summaryLength = 60
 DefaultContentLanguage = "pt"

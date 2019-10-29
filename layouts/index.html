@@ -17,4 +17,15 @@
         </div>
       </div>
   </main>
+
+
+    {{ with .GetPage "events/" }}
+      {{ range .RegularPages }}
+        {{ .Title }}
+      {{ end }}
+    {{ end }}
+
+
+
+
 {{ end }}

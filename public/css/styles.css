@@ -23,6 +23,10 @@ body {
   color: #333333;
 }
 
+main {
+  min-height: 1400px;
+}
+
 
 img {
   max-width: 600px;
@@ -311,7 +315,7 @@ textarea {
 
 
 .post-list li:hover {
-  
+
 }
 
 .post-thumbnail-area:hover h2 {
@@ -416,6 +420,23 @@ textarea {
   margin: 50px auto;
 }
 
+/* Side Bar Insta */
+
+.side-bar {
+  background-color: inherit;
+  position: absolute;right: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.side-bar ul {
+  max-height: 100%;
+}
+
+.side-bar img {
+  max-width: 200px;
+  max-height: 300px;
+}
 
 
 /* Media Queries */
