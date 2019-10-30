@@ -469,6 +469,21 @@ textarea {
   transform: translateY(-7px);
 }
 
+/* Table Styling */
+
+table {
+  max-width: 90%;
+  margin: 10px auto;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+}
+
 /* Media Queries */
 
 @media (min-width: 750px) {
@@ -489,6 +504,10 @@ textarea {
   .navigation-links li{
     margin-top: 25px;
     display: inline-block;
+  }
+
+  table {
+    margin-left: 30px;
   }
 }
 
