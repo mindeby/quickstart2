@@ -102,10 +102,43 @@
         nav.style.height ="115px";
       }
     });
+
+
+    let buttons_array = document.getElementsByClassName("booking");
+
+    if (localStorage.getItem('message')){
+            document.getElementById("message").innerText = localStorage.getItem("message");
+    }
+
+
+
+    for (let i = 0; i< buttons_array.length; i += 1) {
+       document.getElementsByClassName("booking")[i].setAttribute("id", i);
+
+       let reservation = document.getElementById(i);
+       let activity = reservation.children[0].innerText;
+       let date = reservation.children[1].innerText;
+       let time = reservation.children[2].innerText;
+       let place = reservation.children[3].innerText;
+       let button = reservation.children[4].children[0].children[0];
+       let reservation_text = "I want to join the " + activity + " on the " + date + " at " + time + " in " + place;
+
+       button.addEventListener("click", function(e) {
+        localStorage.setItem("message", reservation_text)
+       });
+
+    }
+
   });
+
 </script>
 
+
+
+
 <script>
+
+
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -116,8 +149,6 @@
     });
   }
 </script>
-
-
 
     </div>
   </body>

@@ -102,39 +102,43 @@ No dia em que descobri que era mais livre a viajar, juntei as palavras e as aven
       </div>
   </main>
 
-  <ul>
-      
-          <li>
-          Hot Yoga<br>
-          Caldas da Rainha<br>
-          Yoga mas quente<br>
-          </li>
-      
-          <li>
-          Jantar de convívio<br>
-          Foz do Arelho<br>
-          Celebração da lua<br>
-          </li>
-      
-          <li>
-          Viagem a Moçambique<br>
-          Moçambique<br>
-          Vou embora<br>
-          </li>
-      
-  </ul>
-
-  
-      
-        Hot Yoga
-      
-        Jantar de convívio
-      
-        Viagem a Moçambique
-      
+  <table>
+    <tr>
+      <th>Evento</th>
+      <th>Dia</th>
+      <th>Hora</th>
+      <th>Local</th>
+      <th>Reserva</th>
+    </tr>
     
-
-
+    <tr class="booking">
+      <td>Hot Yoga</td>
+      <td>2019-10-29</td>
+      <td>21:00</td>
+      <td>Caldas da Rainha</td>
+      <td><a href="contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
+    </tr>
+    
+    <tr class="booking">
+      <td>Jantar de convívio</td>
+      <td>2019-10-29</td>
+      <td>19:00</td>
+      <td>Foz do Arelho</td>
+      <td><a href="contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
+    </tr>
+    
+    <tr class="booking">
+      <td>Viagem a Moçambique</td>
+      <td>2019-10-29</td>
+      <td>16:00</td>
+      <td>Moçambique</td>
+      <td><a href="contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
+    </tr>
+    
+  </table>
 
 
 
@@ -179,10 +183,43 @@ No dia em que descobri que era mais livre a viajar, juntei as palavras e as aven
         nav.style.height ="115px";
       }
     });
+
+
+    let buttons_array = document.getElementsByClassName("booking");
+
+    if (localStorage.getItem('message')){
+            document.getElementById("message").innerText = localStorage.getItem("message");
+    }
+
+
+
+    for (let i = 0; i< buttons_array.length; i += 1) {
+       document.getElementsByClassName("booking")[i].setAttribute("id", i);
+
+       let reservation = document.getElementById(i);
+       let activity = reservation.children[0].innerText;
+       let date = reservation.children[1].innerText;
+       let time = reservation.children[2].innerText;
+       let place = reservation.children[3].innerText;
+       let button = reservation.children[4].children[0].children[0];
+       let reservation_text = "I want to join the " + activity + " on the " + date + " at " + time + " in " + place;
+
+       button.addEventListener("click", function(e) {
+        localStorage.setItem("message", reservation_text)
+       });
+
+    }
+
   });
+
 </script>
 
+
+
+
 <script>
+
+
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -193,8 +230,6 @@ No dia em que descobri que era mais livre a viajar, juntei as palavras e as aven
     });
   }
 </script>
-
-
 
     </div>
   </body>

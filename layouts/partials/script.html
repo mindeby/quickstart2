@@ -20,9 +20,10 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
-    if (localStorage.getItem('message')){
-            document.getElementById("message").innerText = localStorage.getItem("message");
-        }
+    if (sessionStorage.getItem('message')){
+            document.getElementById("message").innerText = sessionStorage.getItem("message");
+            sessionStorage.clear();
+    }
 
 
 
@@ -35,11 +36,10 @@
        let time = reservation.children[2].innerText;
        let place = reservation.children[3].innerText;
        let button = reservation.children[4].children[0].children[0];
-       let reservation_text = "Meet me to do " + activity + " on the " + date + " at " + time + " in " + place;
+       let reservation_text = "I want to join the " + activity + " on the " + date + " at " + time + " in " + place;
 
        button.addEventListener("click", function(e) {
-        let reservation_text = "Meet me to do " + activity + " on the " + date + " at " + time + " in " + place;
-        localStorage.setItem("message", reservation_text)
+        sessionStorage.setItem("message", reservation_text)
        });
 
     }
