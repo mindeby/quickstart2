@@ -1,6 +1,5 @@
 
 {{ define "main" }}
-{{ partial "instafeed.html" . }}
   <main>
 
       <div class="hero">
@@ -8,6 +7,8 @@
           <h2>{{ .Params.titulo_pagina }}</h2>
         </div>
       </div>
+
+      {{ partial "instafeed.html" . }}
 
       <div class="about">
         <div class="text-container">

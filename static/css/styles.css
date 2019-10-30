@@ -23,9 +23,6 @@ body {
   color: #333333;
 }
 
-main {
-  min-height: 1400px;
-}
 
 
 img {
@@ -338,17 +335,6 @@ textarea {
   opacity: 0.9;
 }
 
-.hero button {
-  height: 50px;
-  width: 200px;
-  margin: auto;
-  display: block;
-  background: none;
-  color: white;
-  border: solid white 1px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
 
 .hero::after {
   content: "";
@@ -395,7 +381,7 @@ textarea {
 
 .text-container {
   margin: 70px auto;
-  width: 80%;
+  width: 90%;
 }
 
 
@@ -433,7 +419,7 @@ textarea {
   display: flex;
   width: 180px;
   height: 180px;
-  background-color: white;
+  background-color: inherit;
   box-shadow: none;
   align-items: center;
   border-radius: 5px;
@@ -447,6 +433,41 @@ textarea {
   margin: auto;
 }
 
+
+/* Button Styling */
+
+.button_holder {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+
+.lang_button {
+  width: 45px;
+  height: 25px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.lang_button:hover {
+  background-color: #1C494F;
+  box-shadow: 0px 15px 20px #8CCFA9;
+  color: #fff;
+  transform: translateY(-7px);
+}
 
 /* Media Queries */
 

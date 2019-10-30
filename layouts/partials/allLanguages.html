@@ -1,6 +1,6 @@
 
-<ul>
+<ul class="button_holder">
   {{ range $.Site.Home.AllTranslations }}
-  <li><a href="{{ .Permalink }}"><button>{{ .Language.LanguageName }}</button></a></li>
+  <li><a href="{{ .Permalink }}"><button class="lang_button">{{ .Language.LanguageName }}</button></a></li>
   {{ end }}
 </ul>
