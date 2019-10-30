@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/en/</loc>
-    <lastmod>2019-10-29T16:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T21:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>http://susananastacio.netlify.com/en/events/</loc>
-    <lastmod>2019-10-29T16:00:00+00:00</lastmod>
+    <lastmod>2019-10-29T21:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -30,6 +30,26 @@
                 hreflang="en"
                 href="http://susananastacio.netlify.com/en/events/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/en/events/2019-10-29-hot-yoga/</loc>
+    <lastmod>2019-10-29T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/events/2019-10-29-hot-yoga/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/events/2019-10-29-hot-yoga/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/en/events/2019-10-29-get-together-dinner/</loc>
+    <lastmod>2019-10-29T19:00:00+00:00</lastmod>
   </url>
   
   <url>
