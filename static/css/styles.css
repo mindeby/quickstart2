@@ -423,19 +423,28 @@ textarea {
 /* Side Bar Insta */
 
 .side-bar {
+  display: none;
   background-color: inherit;
-  position: absolute;right: 0;
-  z-index: 1000;
-  overflow: hidden;
+  margin: 30px;
+  justify-content:space-between;
 }
 
-.side-bar ul {
-  max-height: 100%;
+.side-bar li {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  background-color: white;
+  box-shadow: none;
+  align-items: center;
+  border-radius: 5px;
+  justify-content:center;
 }
+
 
 .side-bar img {
-  max-width: 200px;
-  max-height: 300px;
+  max-width: 180px;
+  max-height: 180px;
+  margin: auto;
 }
 
 
@@ -465,5 +474,11 @@ textarea {
 @media (max-width: 750px) {
   .nav-bar ul {
     display: none;
+  }
+}
+
+@media (min-width: 1050px) {
+  .side-bar {
+    display: flex;
   }
 }
