@@ -20,11 +20,12 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
+
+
     if (sessionStorage.getItem('message')){
             document.getElementById("message").innerText = sessionStorage.getItem("message");
             sessionStorage.clear();
     }
-
 
 
     for (let i = 0; i< buttons_array.length; i += 1) {
@@ -36,13 +37,23 @@
        let time = reservation.children[2].innerText;
        let place = reservation.children[3].innerText;
        let button = reservation.children[4].children[0].children[0];
-       let reservation_text = "I want to join the " + activity + " on the " + date + " at " + time + " in " + place;
+
 
        button.addEventListener("click", function(e) {
-        sessionStorage.setItem("message", reservation_text)
+         if ({{.Site.LanguagePrefix}} == "/en") {
+           let reservation_text = "I want to join the " + activity + " on the " + date + " in " + time + " in " + place;
+           sessionStorage.setItem("message", reservation_text)
+         } else {
+           let reservation_text = "Quero participar na atividade " + activity + " no dia " + date + " às " + time + " em " + place;
+           sessionStorage.setItem("message", reservation_text)
+         }
        });
 
     }
+
+
+
+
 
   });
 

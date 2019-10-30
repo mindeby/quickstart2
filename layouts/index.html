@@ -20,11 +20,11 @@
 
   <table>
     <tr>
-      <th>Evento</th>
-      <th>Dia</th>
-      <th>Hora</th>
-      <th>Local</th>
-      <th>Reserva</th>
+      <th>{{ .Params.td1 }}</th>
+      <th>{{ .Params.td2 }}</th>
+      <th>{{ .Params.td3 }}</th>
+      <th>{{ .Params.td4 }}</th>
+      <th>{{ .Params.td5 }}</th>
     </tr>
     {{ range where .Site.Pages "Params.layout" "event" }}
     <tr class="booking">
