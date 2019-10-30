@@ -27,7 +27,7 @@
       <th>Reserva</th>
     </tr>
     {{ range where .Site.Pages "Params.layout" "event" }}
-    <tr>
+    <tr class="booking">
       <td>{{ .Title }}</td>
       <td>{{ .Date.Format "2006-01-02" }}</td>
       <td>{{ .Date.Format "15:04" }}</td>
