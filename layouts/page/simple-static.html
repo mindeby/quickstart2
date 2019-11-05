@@ -17,25 +17,21 @@
         </ul>
       </div>
 
-      <table>
-        <tr>
-          <th>{{ .Params.td1 }}</th>
-          <th>{{ .Params.td2 }}</th>
-          <th>{{ .Params.td3 }}</th>
-          <th>{{ .Params.td4 }}</th>
-          <th>{{ .Params.td5 }}</th>
-        </tr>
+      <div class="event_container">
         {{ range where .Site.Pages "Params.layout" "event" }}
-        <tr class="booking">
-          <td>{{ .Title }}</td>
-          <td>{{ .Date.Format "2006-01-02" }}</td>
-          <td>{{ .Date.Format "15:04" }}</td>
-          <td>{{ .Params.location }}</td>
-          <td><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-            <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
-        </tr>
+        <ul class="booking">
+          <li class="day">{{ .Date.Format "02" }}</li>
+          <li class="month">{{ .Date.Format "January" }}</li>
+          <li class="activity">{{ .Title }}</li>
+          <li class="location">{{ .Params.location }}</li>
+          <div class="last_row">
+            <li class="hour">{{ .Date.Format "15:04" }}h</li>
+            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
+          </div>
+        </ul>
         {{ end }}
-      </table>
+      </div>
 
       {{ partial "footer.html" . }}
       {{ partial "script.html" . }}

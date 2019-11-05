@@ -406,6 +406,48 @@ textarea {
   margin: 50px auto;
 }
 
+.booking {
+  background-color: #DCE7E1;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.booking li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.month {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.activity {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.day {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.hour {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.last_row {
+  display: flex;
+}
+
+.Location{
+
+}
+
+
 /* Instagram */
 
 #visible-table img {
@@ -458,20 +500,7 @@ textarea {
   transform: translateY(-7px);
 }
 
-/* Table Styling */
 
-table {
-  max-width: 90%;
-  margin: 10px auto;
-  border: solid 1px black;
-  border-radius: 5px;
-  padding: 30px;
-  text-align: left;
-}
-
-td {
-  padding: 10px;
-}
 
 /* Media Queries */
 
@@ -487,6 +516,10 @@ td {
 
   .projectos ul li {
     display: inline-block;
+  }
+
+  .event_container {
+    display: flex;
   }
 
 
