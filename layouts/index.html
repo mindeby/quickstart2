@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      {{ partial "instafeed.html" . }}
+      <div class="first_section">
 
       <div class="about">
         <div class="text-container">
@@ -17,26 +17,11 @@
           <p>{{ .Content }}</p>
         </div>
       </div>
-  </main>
 
-  <table>
-    <tr>
-      <th>{{ .Params.td1 }}</th>
-      <th>{{ .Params.td2 }}</th>
-      <th>{{ .Params.td3 }}</th>
-      <th>{{ .Params.td4 }}</th>
-      <th>{{ .Params.td5 }}</th>
-    </tr>
-    {{ range where .Site.Pages "Params.layout" "event" }}
-    <tr class="booking">
-      <td>{{ .Title }}</td>
-      <td>{{ .Date.Format "2006-01-02" }}</td>
-      <td>{{ .Date.Format "15:04" }}</td>
-      <td>{{ .Params.location }}</td>
-      <td><a href="contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-        <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
-    </tr>
-    {{ end }}
-  </table>
+      {{ partial "instafeed.html" . }}
+
+    </div>
+
+  </main>
 
 {{ end }}

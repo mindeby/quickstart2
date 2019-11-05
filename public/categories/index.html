@@ -22,17 +22,17 @@
 <div class="nav-bar" id="nav">
 
   
-<ul>
+<ul class="button_holder">
   
-  <li><a href="http://susananastacio.netlify.com/"><button>PT</button></a></li>
+  <li><a href="http://susananastacio.netlify.com/"><button class="lang_button">PT</button></a></li>
   
-  <li><a href="http://susananastacio.netlify.com/en/"><button>EN</button></a></li>
+  <li><a href="http://susananastacio.netlify.com/en/"><button class="lang_button">EN</button></a></li>
   
 </ul>
 
 
   <div class="border"></div>
-  <img src="/logo.png" alt="logo">
+  <a href="/"><img src="/logo.png" alt="logo"></a>
   <button id="hamburger"></button>
   <ul class="navigation-links" id="dropdown">
     
@@ -111,10 +111,12 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
-    if (localStorage.getItem('message')){
-            document.getElementById("message").innerText = localStorage.getItem("message");
-    }
 
+
+    if (sessionStorage.getItem('message')){
+            document.getElementById("message").innerText = sessionStorage.getItem("message");
+            sessionStorage.clear();
+    }
 
 
     for (let i = 0; i< buttons_array.length; i += 1) {
@@ -126,17 +128,46 @@
        let time = reservation.children[2].innerText;
        let place = reservation.children[3].innerText;
        let button = reservation.children[4].children[0].children[0];
-       let reservation_text = "I want to join the " + activity + " on the " + date + " at " + time + " in " + place;
+
 
        button.addEventListener("click", function(e) {
-        localStorage.setItem("message", reservation_text)
+         if ("" == "/en") {
+           let reservation_text = "I want to join the " + activity + " on the " + date + " in " + time + " in " + place;
+           sessionStorage.setItem("message", reservation_text)
+         } else {
+           let reservation_text = "Quero participar na atividade " + activity + " no dia " + date + " às " + time + " em " + place;
+           sessionStorage.setItem("message", reservation_text)
+         }
        });
 
     }
 
+
+
+
+    let photos = document.getElementsByClassName("insta-item");
+    let insta_table = document.getElementById("visible-table");
+
+
+
+    let row_1 =  '<td>' + photos[0].innerHTML + photos[1].innerHTML + photos[2].innerHTML  + '</td>';
+    let row_2 =  '<td>' + photos[3].innerHTML + photos[4].innerHTML + photos[5].innerHTML  + '</td>';
+    let row_3 =  '<td>' + photos[6].innerHTML + photos[7].innerHTML + photos[8].innerHTML  + '</td>';
+
+
+
+    insta_table.innerHTML = row_1 + row_2 + row_3;
+
+
+
+
+
+
   });
 
 </script>
+
+
 
 
 

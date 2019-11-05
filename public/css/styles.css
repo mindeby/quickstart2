@@ -23,9 +23,6 @@ body {
   color: #333333;
 }
 
-main {
-  min-height: 1400px;
-}
 
 
 img {
@@ -338,17 +335,6 @@ textarea {
   opacity: 0.9;
 }
 
-.hero button {
-  height: 50px;
-  width: 200px;
-  margin: auto;
-  display: block;
-  background: none;
-  color: white;
-  border: solid white 1px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
 
 .hero::after {
   content: "";
@@ -395,7 +381,7 @@ textarea {
 
 .text-container {
   margin: 70px auto;
-  width: 80%;
+  width: 70%;
 }
 
 
@@ -420,24 +406,62 @@ textarea {
   margin: 50px auto;
 }
 
-/* Side Bar Insta */
+/* Instagram */
 
-.side-bar {
-  background-color: inherit;
-  position: absolute;right: 0;
-  z-index: 1000;
-  overflow: hidden;
+#hidden-table {
+  display: none;
 }
 
-.side-bar ul {
-  max-height: 100%;
+
+/* Button Styling */
+
+.button_holder {
+  position: absolute;
+  right: 20px;
+  top: 0px;
 }
 
-.side-bar img {
-  max-width: 200px;
-  max-height: 300px;
+.lang_button {
+  width: 45px;
+  height: 25px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
 
+.lang_button:hover {
+  background-color: #1C494F;
+  box-shadow: 0px 15px 20px #8CCFA9;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* Table Styling */
+
+table {
+  max-width: 90%;
+  margin: 10px auto;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+}
 
 /* Media Queries */
 
@@ -460,10 +484,20 @@ textarea {
     margin-top: 25px;
     display: inline-block;
   }
+
+  table {
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 750px) {
   .nav-bar ul {
     display: none;
+  }
+}
+
+@media (min-width: 1050px) {
+  .side-bar {
+    display: flex;
   }
 }

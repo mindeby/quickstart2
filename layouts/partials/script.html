@@ -54,10 +54,29 @@
 
 
 
+    let photos = document.getElementsByClassName("insta-item");
+    let insta_table = document.getElementById("visible-table");
+
+
+
+    let row_1 =  '<td>' + photos[0].innerHTML + photos[1].innerHTML + photos[2].innerHTML  + '</td>';
+    let row_2 =  '<td>' + photos[3].innerHTML + photos[4].innerHTML + photos[5].innerHTML  + '</td>';
+    let row_3 =  '<td>' + photos[6].innerHTML + photos[7].innerHTML + photos[8].innerHTML  + '</td>';
+
+
+
+    insta_table.innerHTML = row_1 + row_2 + row_3;
+
+
+
+
+
 
   });
 
 </script>
+
+
 
 
 

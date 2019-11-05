@@ -3,7 +3,14 @@
 {{ $id := .Site.Params.inst_access }}
 {{ $inst := getJSON $urlPre $id }}
 
-{{ range first 5 $inst.data }}
-  <li><a href="{{ .link }}" target="_blank"><img src="{{ .images.standard_resolution.url }}" alt="{{ .caption.text }}"></a></li>
-{{ end }}
+  <table style="display: none">
+    {{ range first 9 $inst.data }}
+      <tr>
+        <td><li class="insta-item"><a href="{{ .link }}" target="_blank"><img src="{{ .images.thumbnail.url }}" alt="{{ .caption.text }}"></a></li></td>
+      </tr>
+    {{ end }}
+  </table>
+
+  <table id="visible-table"></table>
+
 </div>
