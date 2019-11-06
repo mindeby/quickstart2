@@ -1,7 +1,7 @@
 baseURL = "http://susananastacio.netlify.com"
 title = "Susana Anastácio"
 pluralizelisttitles = false
-summaryLength = 60
+summaryLength = 20
 DefaultContentLanguage = "pt"
 
 [Params]
@@ -11,7 +11,8 @@ inst_access = "570820506.1677ed0.d7b2ac53573b4e3fafd3f3b675d662b0"
 [permalinks]
   post = "/:month/:year/:title/"
 
-
+[taxonomies]
+   tag = "tags"
 
 [languages]
   [languages.pt]

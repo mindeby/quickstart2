@@ -5,6 +5,7 @@ description: Descriçao em Portugues
 date: 2019-10-28T10:32:55.777Z
 thumbnail: /images/uploads/2019-01-06-11.29.47-1.jpg
 type: yoga
+tags: ["yoga", "travel"]
 ---
 O aumento da  flexibilidade é um dos benefícios mais óbvios do Yoga. Durante a sua primeira aula você provavelmente não vai conseguir tocar seus dedões, mas não se preocupe.
 
