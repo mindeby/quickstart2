@@ -12,21 +12,23 @@
       <!-- Ranges through content/posts/*.md -->
       {{ range .Pages }}
         {{ if eq .Params.layout "blog" }}
-          <li>
+          <li class="article_item">
 
-            <a href="{{.Permalink}}">
-              <div class="post-thumbnail-area" style="
-                background-image: url({{.Params.thumbnail}});
-                ">
+            <div class="image_title">
+              <a href="{{.Permalink}}">
+                <div class="post-thumbnail-area" style="
+                  background-image: url({{.Params.thumbnail}});
+                  ">
 
-                  <h2> {{.Title}} </h2>
+                    <h2> {{.Title}} </h2>
 
-              </div>
-            </a>
-<!--
+                </div>
+              </a>
+            </div>
+
             <div class="text-box">
               <h3>{{ .Params.Description }}</h3>
-            </div> -->
+            </div>
           </li>
       {{ end }}
      {{ end }}

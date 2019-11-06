@@ -69,43 +69,45 @@
         </ul>
       </div>
 
-      <table>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
+      <div class="event_container">
         
-        <tr class="booking">
-          <td>Hot Yoga</td>
-          <td>2019-10-29</td>
-          <td>21:00</td>
-          <td>Caldas da Rainha</td>
-          <td><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-            <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
-        </tr>
+        <ul class="booking">
+          <li class="day">29</li>
+          <li class="month">October</li>
+          <li class="activity">Hot Yoga</li>
+          <li class="location">Caldas da Rainha</li>
+          <div class="last_row">
+            <li class="hour">21:00h</li>
+            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
+          </div>
+        </ul>
         
-        <tr class="booking">
-          <td>Jantar de convívio</td>
-          <td>2019-10-29</td>
-          <td>19:00</td>
-          <td>Foz do Arelho</td>
-          <td><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-            <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
-        </tr>
+        <ul class="booking">
+          <li class="day">29</li>
+          <li class="month">October</li>
+          <li class="activity">Jantar de convívio</li>
+          <li class="location">Foz do Arelho</li>
+          <div class="last_row">
+            <li class="hour">19:00h</li>
+            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
+          </div>
+        </ul>
         
-        <tr class="booking">
-          <td>Viagem a Moçambique</td>
-          <td>2019-10-29</td>
-          <td>16:00</td>
-          <td>Moçambique</td>
-          <td><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-            <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></td>
-        </tr>
+        <ul class="booking">
+          <li class="day">29</li>
+          <li class="month">October</li>
+          <li class="activity">Viagem a Moçambique</li>
+          <li class="location">Moçambique</li>
+          <div class="last_row">
+            <li class="hour">16:00h</li>
+            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
+          </div>
+        </ul>
         
-      </table>
+      </div>
 
       <footer>
   <ul>
@@ -190,12 +192,6 @@
 
 
     insta_table.innerHTML = row_1 + row_2 + row_3;
-
-
-
-
-
-
   });
 
 </script>
