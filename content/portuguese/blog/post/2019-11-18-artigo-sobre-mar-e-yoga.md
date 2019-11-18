@@ -5,7 +5,7 @@ description: Descriçao em Portugues
 date: 2019-10-28T10:32:55.777Z
 thumbnail: /images/uploads/yoga_2.jpg
 type: yoga
-tag: 'yoga, mar'
+tags: ["yoga", "mar"]
 ---
 O aumento da  flexibilidade é um dos benefícios mais óbvios do Yoga. Durante a sua primeira aula você provavelmente não vai conseguir tocar seus dedões, mas não se preocupe.
 
