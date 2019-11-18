@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Titulo em Portugues
+title: Artigo sobre yoga e travel
 description: Descriçao em Portugues
 date: 2019-10-28T10:32:55.777Z
 thumbnail: /images/uploads/2019-01-06-11.29.47-1.jpg

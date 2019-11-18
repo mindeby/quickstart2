@@ -69,18 +69,52 @@
       
       
         
-          <li>
+          <li class="article_item">
 
-            <a href="http://susananastacio.netlify.com/blog/post/2019-10-28-titulo-em-portugues/">
-              <div class="post-thumbnail-area" style="
-                background-image: url(/images/uploads/2019-01-06-11.29.47-1.jpg);
-                ">
+            <div class="image_title">
+              <a href="http://susananastacio.netlify.com/blog/post/2019-10-28-titulo-em-portugues/">
+                <div class="post-thumbnail-area" style="
+                  background-image: url(/images/uploads/2019-01-06-11.29.47-1.jpg);
+                  ">
+                </div>
+              </a>
+            </div>
 
-                  <h2> Titulo em Portugues </h2>
+            <div class="text-box">
+              <span>
+                
+                 <a href="http://susananastacio.netlify.comtags/yoga"> yoga </a> </span>
+                
+                 <a href="http://susananastacio.netlify.comtags/travel"> travel </a> </span>
+                
+              <h2> Titulo em Portugues </h2>
+              <h3>Descriçao em Portugues</h3>
+              <p> O aumento da flexibilidade é um dos benefícios mais óbvios do Yoga. Durante a sua primeira aula você provavelmente não vai conseguir tocar seus dedões, mas não se preocupe.</p>
+            </div>
+          </li>
+      
+     
+        
+          <li class="article_item">
 
-              </div>
-            </a>
+            <div class="image_title">
+              <a href="http://susananastacio.netlify.com/blog/post/2019-11-06-titulo-em-portugues-n%C2%BA2/">
+                <div class="post-thumbnail-area" style="
+                  background-image: url(/images/uploads/main-photo.jpeg);
+                  ">
+                </div>
+              </a>
+            </div>
 
+            <div class="text-box">
+              <span>
+                
+                 <a href="http://susananastacio.netlify.comtags/travel"> travel </a> </span>
+                
+              <h2> Titulo em Portugues nº2 </h2>
+              <h3>Descriçao em Portugues</h3>
+              <p> O aumento da flexibilidade é um dos benefícios mais óbvios do Yoga. Durante a sua primeira aula você provavelmente não vai conseguir tocar seus dedões, mas não se preocupe.</p>
+            </div>
           </li>
       
      
@@ -102,6 +136,8 @@
       <img src="/svg/linkedin.svg" alt="linkedin-icon">
     </a></li>
   </ul>
+  
+  <span>  </span>
   
   <span>  </span>
   
@@ -129,7 +165,7 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
-
+    console.log(buttons_array)
 
     if (sessionStorage.getItem('message')){
             document.getElementById("message").innerText = sessionStorage.getItem("message");
@@ -139,7 +175,6 @@
 
     for (let i = 0; i< buttons_array.length; i += 1) {
        document.getElementsByClassName("booking")[i].setAttribute("id", i);
-
        let reservation = document.getElementById(i);
        let activity = reservation.children[0].innerText;
        let date = reservation.children[1].innerText;

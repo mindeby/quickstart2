@@ -106,20 +106,6 @@
   </url>
   
   <url>
-    <loc>http://susananastacio.netlify.com/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>http://susananastacio.netlify.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"

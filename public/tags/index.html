@@ -68,6 +68,10 @@
       <ul class="post-list">
       
       
+        
+     
+        
+     
       </ul>
 
     </div>
@@ -86,6 +90,10 @@
       <img src="/svg/linkedin.svg" alt="linkedin-icon">
     </a></li>
   </ul>
+  
+  <span>  </span>
+  
+  <span>  </span>
   
 </footer>
 
@@ -111,7 +119,7 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
-
+    console.log(buttons_array)
 
     if (sessionStorage.getItem('message')){
             document.getElementById("message").innerText = sessionStorage.getItem("message");
@@ -121,7 +129,6 @@
 
     for (let i = 0; i< buttons_array.length; i += 1) {
        document.getElementsByClassName("booking")[i].setAttribute("id", i);
-
        let reservation = document.getElementById(i);
        let activity = reservation.children[0].innerText;
        let date = reservation.children[1].innerText;

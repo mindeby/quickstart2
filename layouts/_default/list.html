@@ -25,7 +25,9 @@
 
             <div class="text-box">
               <span>
-                {{ range .Params.tags }}
+
+                {{- $tags := .Site.Taxonomies.tags }}
+                {{- range .Params.tags  }}
                  <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}"> {{ . }} </a> </span>
                 {{ end }}
               <h2> {{.Title}} </h2>

@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #f7f7f7;
   color: #333333;
 }
@@ -63,20 +63,19 @@ h1 {
 
 h2 {
   margin: auto;
-  width: 90%;
-  text-align: center;
-  color: white;
-  font-size:30px;
+  text-align: left;
+  font-size:20px;
   text-transform: uppercase;
-  line-height: 80px;
+  line-height: 40px;
   font-family:'Montserrat', sans-serif;
-  color: white;
+  color: black;
   opacity: 0.9;
 }
 
 
 h3 {
   text-align: left;
+  font-size: 18px;
 }
 
 ul {
@@ -92,6 +91,7 @@ button:hover {
   border: solid 1px #363A3A;
   background-color: #F8F8F8;
 }
+
 
 quote {
   font-style: italic;
@@ -112,7 +112,7 @@ quote {
 /* Navigation Partial */
 
 .nav-bar {
-  height: 115px;
+  height: 100px;
   width: 95%;
   margin: auto;
 }
@@ -220,12 +220,13 @@ footer img {
 /* Form Stylings */
 
 .form-box {
+  padding-top: 15px;
   margin: 50px auto;
   width: 80%;
-  border: solid #282D2D 1px;
+  height: 400px;
   border-radius: 5px;
   max-width: 550px;
-  background-color: #EB8C6C;
+  background-color: white;
   opacity: 0.8;
   -webkit-box-shadow: 7px 18px 35px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 7px 18px 35px 0px rgba(0,0,0,0.75);
@@ -235,9 +236,14 @@ footer img {
 label, input, textarea {
   padding: 10px;
   display: block;
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+textarea {
   width: 90%;
   margin: auto;
-  border-radius: 5px;
 }
 
 input {
@@ -249,51 +255,43 @@ textarea {
 }
 
 #submit {
+  border-radius: 30px;
   display: block;
   width: 150px;
   height: 40px;
   margin: 15px auto;
-  background-color: white;
+  background-color: lightgrey;
 }
 
 /* List Stylings */
 
 .list-menu {
-  margin: auto;
 }
 
 .list-menu h1 {
-  margin-left: 45px;
 }
 
 .list-menu ul {
-  width: 80%;
-  margin: auto;
 }
 
 .list-menu img {
-  width: 100%;
+
 }
 
 .post-list li {
-  box-shadow: inset 0 0 0 30px #F4ECDF, inset 0 0 0 35px #F4A898, inset 0 0 0 45px #F4ECDF, 10px 10px 5px -5px rgba(0,0,0,0.75);
   background-color: white;
-  border-radius: 15px;
   margin-top: 40px;
-  width: 100%;
+  width: 90%;
   height: 800px;
   margin:auto;
-  max-width: 450px;
-  max-height: 800px;
+  max-width: 800px;
+  max-height: 300px;
   margin-bottom: 50px;
   transition: all 0.5s ease-in-out;
 }
 
 
 .post-thumbnail-area {
-  position: relative;
-  top: 45px;
-  margin: 45px;
   height: 100%;
   max-height: 710px;
   background-repeat: no-repeat;
@@ -302,13 +300,21 @@ textarea {
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease-in-out;
+}
+
+.article_item {
+  display: flex;
+}
+
+.image_title {
+  width: 60%;
   filter: brightness(0.90) saturate(180%);
 }
-
-
 .text-box {
-  padding: 0px 90px;
+  width: 100%;
+  padding: 20px;
 }
+
 
 
 .post-list li:hover {
@@ -326,6 +332,9 @@ textarea {
 
 /* Index Stylings */
 
+.first_section {
+  margin: 25px auto;
+}
 
 .hero  {
   min-height: 565px;
@@ -380,8 +389,8 @@ textarea {
 }
 
 .text-container {
-  margin: 70px auto;
-  width: 70%;
+  margin: auto;
+  width: 90%;
 }
 
 
@@ -400,7 +409,11 @@ textarea {
 
 /* Projectos Stylings */
 
-
+.event_container {
+  margin: auto;
+  width: 60%;
+  justify-content: space-between;
+}
 
 .projectos ul li {
   margin: 50px auto;
@@ -409,6 +422,7 @@ textarea {
 .booking {
   background-color: #DCE7E1;
   margin: 20px;
+  min-width: 170px;
   width: 200px;
   height: 200px;
   border-radius: 5px;
@@ -439,30 +453,33 @@ textarea {
   font-size: 20px;
 }
 
-.last_row {
-  display: flex;
-}
-
-.Location{
-
-}
-
 
 /* Instagram */
 
 #visible-table img {
   max-width: 100px;
-  border: 1px solid rgba(123,123,123,1);
-  margin: 10px;
+  margin:10px;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.39);
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.39);
+  transition: transform 0.1s ease-in-out;
 }
+
+#visible-table img:hover {
+  transform: scale(1.1);
+}
+
 
 #visible-table {
   border: none;
   background-color: inherit;
+  margin: auto;
 }
 
-#visible-table td {
+#visible-table td, #visible-table tr {
   padding: 0;
+  margin: 0;
+  justify-content: space-between;
 }
 
 /* Button Styling */
@@ -470,15 +487,13 @@ textarea {
 .button_holder {
   position: absolute;
   right: 20px;
-  top: 0px;
+  top: 10px;
 }
 
 .lang_button {
   width: 45px;
   height: 25px;
   font-size: 14px;
-  margin-bottom: 30px;
-  margin-top: 25px;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -521,6 +536,11 @@ textarea {
   .event_container {
     display: flex;
   }
+
+  #visible-table {
+    margin-right: 40px;
+  }
+
 
 
   #hamburger {

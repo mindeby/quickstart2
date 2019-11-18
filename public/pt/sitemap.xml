@@ -73,7 +73,37 @@
   </url>
   
   <url>
+    <loc>http://susananastacio.netlify.com/tags/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://susananastacio.netlify.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://susananastacio.netlify.com/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://susananastacio.netlify.com/blog/post/2019-10-28-titulo-em-portugues/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/blog/post/2019-11-06-titulo-em-portugues-n%C2%BA2/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/tags/travel/</loc>
+    <lastmod>2019-10-28T10:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://susananastacio.netlify.com/tags/yoga/</loc>
     <lastmod>2019-10-28T10:32:55+00:00</lastmod>
   </url>
   
@@ -102,34 +132,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://susananastacio.netlify.com/projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://susananastacio.netlify.com/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://susananastacio.netlify.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://susananastacio.netlify.com/tags/"
                 />
   </url>
   

@@ -59,12 +59,10 @@
       <div class="projectos">
         <ul>
           <li>
-            <h3>O Uivar da Loba</h3>
-            <img src="/logoPerfil.png" alt="uivar da loba logo">
+            <h2>Project 1</h2>
           </li>
           <li>
-            <h3>Podcast Unknown</h3>
-            <img src="/podcasting.png" alt="podcast logo">
+            <h2>Project 2</h2>
           </li>
         </ul>
       </div>
@@ -76,11 +74,7 @@
           <li class="month">October</li>
           <li class="activity">Hot Yoga</li>
           <li class="location">Caldas da Rainha</li>
-          <div class="last_row">
-            <li class="hour">21:00h</li>
-            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
-          </div>
+          <li class="hour">21:00h</li>
         </ul>
         
         <ul class="booking">
@@ -88,11 +82,7 @@
           <li class="month">October</li>
           <li class="activity">Jantar de convívio</li>
           <li class="location">Foz do Arelho</li>
-          <div class="last_row">
-            <li class="hour">19:00h</li>
-            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
-          </div>
+          <li class="hour">19:00h</li>
         </ul>
         
         <ul class="booking">
@@ -100,11 +90,7 @@
           <li class="month">October</li>
           <li class="activity">Viagem a Moçambique</li>
           <li class="location">Moçambique</li>
-          <div class="last_row">
-            <li class="hour">16:00h</li>
-            <li class="button_book"><a href="../contacts"><button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-              <path d="M4 .755L18.374 12 4 23.219l.619.781L20 12 4.609 0 4 .755z"/></svg></button></a></li>
-          </div>
+          <li class="hour">16:00h</li>
         </ul>
         
       </div>
@@ -146,7 +132,7 @@
 
     let buttons_array = document.getElementsByClassName("booking");
 
-
+    console.log(buttons_array)
 
     if (sessionStorage.getItem('message')){
             document.getElementById("message").innerText = sessionStorage.getItem("message");
@@ -156,7 +142,6 @@
 
     for (let i = 0; i< buttons_array.length; i += 1) {
        document.getElementsByClassName("booking")[i].setAttribute("id", i);
-
        let reservation = document.getElementById(i);
        let activity = reservation.children[0].innerText;
        let date = reservation.children[1].innerText;

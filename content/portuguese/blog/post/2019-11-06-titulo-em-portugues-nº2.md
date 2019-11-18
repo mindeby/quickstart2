@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Titulo em Portugues nº2
+title: Artigo so sobre travel
 description: Descriçao em Portugues
 date: 2019-10-28T10:32:55.777Z
 thumbnail: /images/uploads/main-photo.jpeg
