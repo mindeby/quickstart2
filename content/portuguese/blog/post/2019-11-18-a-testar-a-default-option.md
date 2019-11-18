@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: a testar a default option
+title: a testar a default option 2
 description: blog teste
 date: 2019-10-09T12:02:49.431Z
 thumbnail: /images/uploads/yoga_1.jpg
