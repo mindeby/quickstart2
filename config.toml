@@ -12,7 +12,7 @@ inst_access = "570820506.1677ed0.d7b2ac53573b4e3fafd3f3b675d662b0"
   post = "/:month/:year/:title/"
 
 [taxonomies]
-   tag = "tags"
+   tag = "[tags]"
 
 [languages]
   [languages.pt]
