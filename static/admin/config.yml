@@ -12,7 +12,6 @@ collections:
     folder: "content/portuguese/blog/post/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    field: {name: tag, label: Tag, widget: string}
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
@@ -21,6 +20,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Type of article", name: "type", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tag", name: "tag", widget:"string"}
 
   - name: "blog_en" # Used in routes, e.g., /admin/collections/blog
     label: "english blog post" # Used in the UI
