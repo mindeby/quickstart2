@@ -20,7 +20,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Type of article", name: "type", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget:"string", pattern: ['(?<="")\b[a-z,]+\b(?="")|[a-z]+', "Separate each tag with a comma"]}
+      - {label: "Tags", name: "tags", widget:"list", default: ["news"]}
 
   - name: "blog_en" # Used in routes, e.g., /admin/collections/blog
     label: "english blog post" # Used in the UI
